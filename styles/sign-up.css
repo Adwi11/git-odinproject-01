@@ -1,0 +1,50 @@
+.sign-up-div{
+  display: flex;
+  justify-content: center;
+  
+}
+.sign-up-inner-div{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 1300px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: rgb(19, 110, 221);
+    align-items: center;
+    justify-content: space-around;
+}
+.sign-up-text,prompt{
+  
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  
+}
+.sign-up-text{
+  font-size: 30px;
+}
+.prompt{
+  font-size: 20px;
+  font-weight: lighter;
+}
+.sign-up-button{
+  height: 45px;
+  width: 155px;
+  border: solid;
+  border-color: white;
+  border-radius: 10px;
+  border-width: 1.4px;
+  background-color: rgb(53, 139, 219);
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+}
+.sign-up-button:hover{
+  box-shadow: 0 4px 4px rgba(0,0,0,0.2);
+}
+.sign-up-button:active{
+  opacity: 0.5;
+}
